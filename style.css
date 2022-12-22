@@ -695,4 +695,53 @@ body
     {
         margin: 35px 0px 0px 100px;
     }
+
+    .anim 
+    {
+        display:grid;
+        width:300px;
+        height:300px;
+        margin:80px 0px 0px 30px;
+    }
+
+    #animspan1 
+    {
+        width:100%;
+        height:300px;
+        border:1px solid black;
+    }
+
+    #animspan2
+    {
+        width:100%;
+        height:300px;
+        position:relative;
+        bottom:300px;
+    }
+
+    #animspan3
+    {
+        width:100%;
+        height:300px;
+        position:relative;
+        bottom:600px;
+    }
+
+    #animspan4 
+    {
+        width:100%;
+        height:300px;
+        position:relative;
+        bottom:900px;
+    }
+
+    #begchad 
+    {
+        margin:30px 0px 0px 140px;
+    }
+
+    #sigmalogo 
+    {
+        margin:30px 0px 0px 140px;
+    }
 }
