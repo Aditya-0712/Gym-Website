@@ -1,0 +1,698 @@
+body
+{   
+    margin:0;
+    width:100%;
+    height:100%;
+    font-size:0px;
+}
+
+#navbar
+{
+    margin:0;
+    width:100%;
+    height:60px;
+    background-image:linear-gradient(to right,black,rgba(0, 0, 0, 0.6));
+    font-size:0px;
+    overflow: hidden;
+}
+
+#navlogo
+{
+    width:auto;
+    height:100%;
+    margin-left:30px;
+}
+
+#navname
+{
+    display:inline-block;
+    height: 100%;
+    width: auto;
+    font-family:kid;
+    color:rgb(255, 217, 24);
+    font-size:40px;
+    margin: 0px 250px 0px 40px;
+    position:relative;
+    bottom:23px;
+    text-shadow: -1px 0 maroon, 0 1px maroon, 1px 0 maroon, 0 -1px maroon;
+}
+
+.navop
+{
+    display:inline-block;
+    width:auto;
+    height: 50px;
+    margin: 0px 0px 0px 10px;
+    text-decoration:none ;
+    padding: 0px 20px 0px 20px;
+    border-bottom: 10px solid transparent;
+    position:relative;
+    bottom:31px;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+.navop p
+{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    color: white;
+    font-family: agency;
+    font-size: 30px;
+    margin:0px 0px 0px 0px;
+    position:relative;
+    top:10px;
+}
+
+.navop:hover , .navop:active 
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 10px solid orange;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#gitcard 
+{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    margin: 5px 0px 5px 20px;
+    position:relative;
+    bottom:7px;
+}
+
+#gitcard a 
+{
+    display:inline-block;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+#gitimg
+{
+    width:50px;
+    height: 50px;
+}
+
+#gitcard a:hover , #gitcard a:active 
+{
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(255, 255, 255, 0.3);
+    border-radius:50px;
+} 
+
+.border 
+{
+    display:inline-block;
+    margin:0;
+    width:100%;
+    height:3px;
+    background-image:linear-gradient(to right, red,rgb(255, 217, 0),rgb(34, 255, 0),rgb(0, 229, 255),rgb(0, 13, 255),rgb(255, 0, 242),rgb(255, 0, 0))
+}
+
+#appdiv 
+{
+    display:inline-block;
+    margin:0;
+    width:100%;
+    height:700px;
+    font-size:0px;
+    background-image:url(uoJ4pq.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#appdivb 
+{
+    display:inline-block;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    font-size:0px;
+}
+
+#appdivtitle 
+{
+    display:inline-block;
+    margin:50px 0px 70px 370px;
+    width:auto;
+    height:auto;
+    font-family:kid;
+    color:rgba(250, 0, 0,0.8);
+    font-size:40px;
+    text-shadow: -1px 0 rgb(0, 255, 0), 0 1px rgb(4, 255, 0), 1px 0 rgb(0, 255, 0), 0 -1px rgb(0, 255, 0);
+}
+
+#grid1
+{
+    display:grid;
+    width:100%;
+    height:460px;
+}
+
+#grid1 span:nth-child(1)
+{
+    width:50%;
+    height:460px;
+}
+
+#mobile 
+{
+    display:inline-block;
+    margin:0px 0px 0px 250px;
+    width:220px;
+    height:440px;
+    background-image: url(Mobile1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mobilebg 
+{
+    display:inline-block;
+    background-color:rgba(255, 255, 255, 0.5);
+    width:177px;
+    height:313px;
+    margin:66px 0px 0px 22px;
+}
+
+#moblogo 
+{
+    width:auto;
+    height:70px;
+    margin:43px 0px 0px 53px;
+    /* border:1px solid black; */
+    border-radius:20px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#stars 
+{
+    width:auto;
+    height:23px;
+    margin:20px 0px 0px 20px;
+}
+
+#google
+{   
+    display:inline-block;
+    margin:20px 0px 0px 20px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    width:auto;
+    height:auto;
+}
+
+#google img
+{
+    width:auto;
+    height:40px;
+}
+
+#google:hover , #google:active 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 255, 251, 0.3), 0 6px 20px 0 rgba(0, 255, 251, 0.3);
+}
+
+#apple
+{   
+    display:inline-block;
+    margin:20px 0px 0px 20px;
+    border-radius:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    width:auto;
+    height:auto;
+}
+
+#apple img
+{
+    width:auto;
+    height:40px;
+}
+
+#apple:hover, #apple:active 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 255, 251, 0.3), 0 6px 20px 0 rgba(0, 255, 251, 0.3);
+}
+
+#grid1 span:nth-child(2)
+{
+    width:50%;
+    height:460px;
+    position:relative;
+    bottom:460px;
+    left:50%;
+    /* background-color: red; */
+}
+
+#content 
+{
+    display:inline-block;
+    color:rgb(255, 207, 117);
+    font-family:sans-serif;
+    font-size:25px;
+    margin:70px 20px 0px 0px;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+#beginner 
+{
+    display:inline-block;
+    width:100%;
+    height:650px;
+    margin:0;
+    background-image:url(begbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#beginnerb 
+{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    font-size:0px;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+#begtitle
+{
+    display:inline-block;
+    width:auto;
+    height:auto;
+    font-family:kid;
+    font-size:50px;
+    color:rgba(17, 0, 255,0.9);
+    text-shadow: -1px 0 rgb(255, 0, 0), 0 1px rgb(255, 0, 0), 1px 0 rgb(255, 0, 0), 0 -1px rgb(255, 0, 0);
+    margin:50px 0px 0px 450px;
+}
+
+#grid2
+{
+    display:grid;
+    width:100%;
+    height:500px;
+}
+
+#gridspan1
+{
+    width:50%;
+    height:500px;
+    /* background-color: rgba(255, 0, 0, 0.199); */
+}
+
+#gridspan2
+{
+    width:50%;
+    height:500px;
+    position:relative;
+    bottom:100%;
+    left:50%;
+    background-color:rgba(0, 0, 255, 0.199) ;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.anim 
+{
+    display:grid;
+    width:400px;
+    height:400px;
+    margin:50px 0px 0px 100px;
+}
+
+#animspan1 
+{
+    width:100%;
+    height:400px;
+    border:1px solid black;
+    border-radius:30% 70% 70% 30% / 35% 57% 43% 65%;
+    background-color:rgba(56, 72, 248, 0.501);
+    animation:anime 4s linear infinite;
+}
+
+#animspan2
+{
+    width:100%;
+    height:400px;
+    position:relative;
+    bottom:400px;
+    border:1px solid black;
+    background-color: rgba(56, 72, 248, 0.501);
+    border-radius:30% 70% 70% 30% / 35% 57% 43% 65%;
+    animation:anime 5s linear infinite;
+}
+
+#animspan3
+{
+    width:100%;
+    height:400px;
+    position:relative;
+    bottom:800px;
+    border:1px solid black;
+    background-color: rgba(56, 72, 248, 0.501);
+    border-radius:30% 70% 70% 30% / 35% 57% 43% 65%;
+    animation:anime 10s linear infinite;
+}
+
+@keyframes anime 
+{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+
+    0% {background-color:rgba(56, 72, 248, 0.501);}
+    25% {background-color:rgba(56, 245, 248, 0.501);}
+    50% {background-color:rgba(59, 248, 56, 0.501);}
+    75% {background-color:rgba(248, 56, 235, 0.501);}
+    100% {background-color:rgba(56, 72, 248, 0.501);}
+}
+
+#animspan4 
+{
+    width:100%;
+    height:400px;
+    position:relative;
+    bottom:1200px;
+}
+
+#begchad 
+{
+    width:auto;
+    height:100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius:10px;
+    margin:70px 0px 0px 140px;
+}
+
+#begprice 
+{
+    display:inline-block;
+    color:white;
+    font-family:sans-serif;
+    font-size:20px;
+    margin:30px 100px 0px 145px;
+}
+
+#begbuy 
+{
+    display:inline-block;
+    width:100px;
+    height:50px;
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+    font-size:40px;
+    margin:30px 0px 0px 140px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    background-color:yellow;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+#begbuy:hover, #begbuy:active 
+{
+    box-shadow: none;
+}
+
+#begconttitle 
+{
+    display:inline-block;
+    margin:80px 100px 0px 230px;
+    width:auto;
+    height:auto;
+    font-family: agency;
+    font-size:40px;
+    color:white;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+.begcontent
+{
+    display:inline-block;
+    margin:20px 250px 0px 100px;
+    width:auto;
+    height:auto;
+    font-family:agency;
+    font-size:30px;
+    color:white;
+    text-shadow: -1px 0 rgb(255, 0, 0), 0 1px rgb(254, 0, 0), 1px 0 rgb(250, 0, 0), 0 -1px rgb(255, 0, 0);
+}
+
+#sigma
+{
+    display:inline-block;
+    width:100%;
+    height:670px;
+    margin:0;
+    background-image: url(sigmabg.jpg);
+}
+
+#sigmab
+{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    margin:0;
+    font-size:0px;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+
+#sigmatitle 
+{
+    display:inline-block;
+    width:auto;
+    height:auto;
+    margin:50px 0px 40px 500px;
+    font-family:kid;
+    font-size:50px;
+    color:red;
+    text-shadow: -1px 0 rgb(0, 225, 255), 0 1px rgb(0, 217, 255), 1px 0 rgb(0, 255, 255), 0 -1px rgb(0, 238, 255);
+}
+
+#sigmagrid 
+{
+    display:grid;
+    width:100%;
+    height:500px;
+    margin:0;
+}
+
+#sigmaspan1 
+{
+    width:50%;
+    height:500px;
+    background-color:rgba(255, 0, 0, 0.25);
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#sigmaspan2
+{
+    width:50%;
+    height:500px;
+    position:relative;
+    bottom:500px;
+    left:50%;
+    /* background-color: rgba(0, 255, 255, 0.2); */
+}
+
+#sigfeat
+{
+    display:inline-block;
+    margin:80px 100px 0px 230px;
+    width:auto;
+    height:auto;
+    font-family: agency;
+    font-size:40px;
+    color:white;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+.sigcontent
+{
+    display:inline-block;
+    margin:30px 50px 0px 300px;
+    width:auto;
+    height:auto;
+    font-family:agency;
+    font-size:30px;
+    color:white;
+    text-shadow: -1px 0 rgb(21, 0, 255), 0 1px rgb(17, 0, 254), 1px 0 rgb(29, 0, 250), 0 -1px rgb(21, 0, 255);
+}
+
+#sigmalogo 
+{
+    width:auto;
+    height:100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius:10px;
+    margin:70px 0px 0px 140px;
+}
+
+#sigprice 
+{
+    display:inline-block;
+    color:white;
+    font-family:sans-serif;
+    font-size:20px;
+    margin:30px 100px 0px 145px;
+}
+
+#sigbuy 
+{
+    display:inline-block;
+    width:100px;
+    height:50px;
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+    font-size:40px;
+    margin:30px 0px 0px 140px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    background-color:rgb(0, 255, 0);
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+}
+
+#sigbuy:hover, #sigbuy:active 
+{
+    box-shadow: none;
+}
+
+@media screen and (max-width:800px)
+{
+    body 
+    {
+        width:412px;
+        /* overflow:hidden; */
+    }
+    #navlogo
+    {
+        width:auto;
+        height:100%;
+        margin-left:50px;
+    }
+
+    #navname
+    {
+        margin:0px 0px 0px 20px;
+    }
+
+    .navop 
+    {
+        display:none;
+    }
+
+    #appdivtitle 
+    {
+        margin:50px 0px 70px 25px;
+        font-size:25px;
+    }
+
+    #grid1 span:nth-child(2)
+    {
+        display:none;
+    }
+
+    #content 
+    {
+        display:none;
+    }
+
+    #mobile 
+    {
+        margin:0px 0px 0px 95px;
+    }
+
+    #begtitle 
+    {
+        margin:50px 0px 0px 90px;
+        font-size:30px;
+    }
+
+    #beginner 
+    {
+        height:1150px;
+        overflow:hidden;
+    }
+
+    #grid2 
+    {
+        height:1000px;
+    }
+
+    #gridspan1
+    {
+        width:411px;
+    }
+
+    #gridspan2
+    {
+        width:411px;
+        bottom:0px;
+        left:0px;
+    }
+
+    .anim 
+    {
+        margin:50px 0px 0px 0px;
+    }
+
+    #begconttitle
+    {
+        margin:50px 0px 0px 140px;
+    }
+
+    .begcontent
+    {
+        margin:40px 0px 0px 100px;
+    }
+
+    #sigma 
+    {
+        height:1150px;
+    }
+
+    #sigmatitle 
+    {
+        margin:50px 0px 40px 130px;
+        font-size:30px;
+    }
+
+    #sigmagrid 
+    {
+        width:411px;
+        height:1000px;
+    }
+
+    #sigmaspan1 
+    {
+        width:411px;
+        position:relative;
+        top:500px;
+
+    }
+
+    #sigmaspan2
+    {
+        width:411px;
+        left:0px;
+    }
+
+    #sigfeat 
+    {
+        margin: 40px 0px 0px 130px;
+    }
+
+    .sigcontent 
+    {
+        margin: 35px 0px 0px 100px;
+    }
+}
