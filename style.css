@@ -594,6 +594,11 @@ body
     {
         margin:50px 0px 70px 25px;
         font-size:25px;
+    } 
+
+    #grid1
+    {
+        width:411px;
     }
 
     #grid1 span:nth-child(2)
