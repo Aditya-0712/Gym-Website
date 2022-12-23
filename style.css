@@ -568,6 +568,11 @@ body
 
 @media screen and (max-width:800px)
 {
+    *
+    {
+        margin-right:0px;
+    }
+    
     body 
     {
         width:412px;
