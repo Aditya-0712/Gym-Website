@@ -844,4 +844,31 @@ body
     {
         margin:30px 0px 0px 140px;
     }
+
+    #credits 
+    {
+        height:600px;
+        margin:0px 0px 0px 0px;
+    }
+
+    #creditp2 
+    {
+        margin:0px 50px 30px 20px;
+    }
+
+    .creditlink
+    {
+        margin:20px 100px 20px 170px;
+        font-size:20px;
+    }
+
+    #copy 
+    {
+        margin:0px 0px 0px 70px;
+    }
+
+    .finale 
+    {
+        margin:50px 0px 20px 80px;
+    }
 }
