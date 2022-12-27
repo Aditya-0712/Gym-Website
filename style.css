@@ -452,6 +452,8 @@ body
     height:670px;
     margin:0;
     background-image: url(sigmabg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #sigmab
