@@ -72,6 +72,7 @@ body
     /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
     /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
     background-color: rgba(0, 0, 0, 0.3);
+    animation:lizard 3s linear infinite;
 }
 
 #gitcard 
@@ -667,6 +668,12 @@ body
 .finale:hover, .finale:active 
 {
     text-decoration:overline;
+}
+
+@keyframes lizard
+{
+    0% ,100% {background-color: rgba(0, 0, 0, 0.3);}
+    50% {background-color: rgba(128, 128, 128, 0.3);}
 }
 
 @media screen and (max-width:800px)
