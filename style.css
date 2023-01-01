@@ -423,11 +423,15 @@ body
     text-decoration: none;
     background-color:yellow;
     text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+    transition:0.5s;
 }
 
 #begbuy:hover, #begbuy:active 
 {
-    box-shadow: none;
+    transform: translate3d(7px,-7px,7px);
+    box-shadow: 0 11px 15px 0 rgba(0, 0, 0, 0.3), 0 14px 28px 0 rgba(0, 0, 0, 0.3);
+    transition-property: transform;
+    transition: 0.5s;
 }
 
 #begconttitle 
@@ -573,11 +577,15 @@ body
     text-decoration: none;
     background-color:rgb(0, 255, 0);
     text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+    transition: 0.5s;
 }
 
 #sigbuy:hover, #sigbuy:active 
 {
-    box-shadow: none;
+    transform: translate3d(7px,-7px,7px);
+    box-shadow: 0 11px 15px 0 rgba(0, 0, 0, 0.3), 0 14px 28px 0 rgba(0, 0, 0, 0.3);
+    transition-property: transform;
+    transition: 0.5s;
 }
 
 #credits 
@@ -626,11 +634,14 @@ body
     text-decoration: none;
     position:relative;
     bottom:5px;
+    border-bottom:1px solid transparent;
+    transition: 1s;
 }
 
 .creditlink:hover, .creditlink:active
 {
-    text-decoration:overline;
+    border-bottom: 1px solid white;
+    transition: 1s;
 }
 
 #hr
@@ -663,11 +674,14 @@ body
     font-family:sans-serif;
     font-size:15px;
     text-decoration: none;
+    border-bottom:1px solid transparent;
+    transition: 1s;
 }
 
 .finale:hover, .finale:active 
 {
-    text-decoration:overline;
+    border-bottom: 1px solid white;
+    transition: 1s;
 }
 
 @keyframes lizard
