@@ -12,7 +12,10 @@ body
     width:100%;
     height:60px;
     background-image:linear-gradient(to right,black,rgba(0, 0, 0, 0.6));
+    background-color:rgba(255, 255, 255, 0.4);
     font-size:0px;
+    z-index:1;
+    position:fixed;
 }
 
 #navlogo
@@ -112,6 +115,15 @@ body
     transform:translate3d(10px,10px,10px);
     transition: 0.5s;
 } 
+
+.border1
+{
+    display:inline-block;
+    margin:60px 0px 0px 0px;
+    width:100%;
+    height:3px;
+    background-image:linear-gradient(to right, red,rgb(255, 217, 0),rgb(34, 255, 0),rgb(0, 229, 255),rgb(0, 13, 255),rgb(255, 0, 242),rgb(255, 0, 0))
+}
 
 .border 
 {
